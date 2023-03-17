@@ -1,0 +1,52 @@
+
+1. Create build file for ui
+npm run build
+
+2.open ssh
+
+shh root@ip address
+pwd:2AProjects2o22
+cd /opt/highoctavez/
+
+
+3. Activate venv
+source venv/bin/activate
+
+4. Move to src
+cd src
+(to check ls)
+
+5. Pull api
+git pull
+
+6.If alembic 
+alembic upgrade heads
+
+
+7. cd /var/www
+(to check ls)
+
+8. File unzip
+unzip filename
+Move the unzipfile into html
+
+9. To start server
+ systemctl restart nginx.service
+
+10. To see status
+ systemctl status nginx.service
+
+11. to run the backend
+cd /opt/highoctavez/
+cd src
+systemctl  restart highoctavez.service
+systemctl  status highoctavez.service
+ 
+
+manual work:
+
+we need fileZilla app
+1. give port,server id, pwd --> quick connect
+2.Go to build file path
+3.Remove the backup.zip
+4.change current zip into backup
